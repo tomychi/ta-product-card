@@ -25,7 +25,6 @@ const product = {
             // maxQuantity: 10,
         }}
     >
-        {/* Formik me devuelve una funcion y en base a eso trabajo */}
         {
             ( {reset, quantity, isMaxQuantityReached, increaseBy, maxQuantity} ) => (
                 <>
